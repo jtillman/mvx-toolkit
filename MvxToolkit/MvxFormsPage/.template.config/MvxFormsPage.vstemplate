@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate
+  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"
+  xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010"
+  Version="3.0.0"
+  Type="Item" >
+  <TemplateData>
+    <Name>Mvx Page</Name>
+    <Description>MvvmCross Page View and ViewModel</Description>
+    <Icon>mvx-favicon.ico</Icon>
+    <TemplateID>cacd6986-3bb6-4159-9e60-9ae9589ebe11</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>MvvmCross</ProjectSubType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Default</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$viewmodelname$.cs">MvxViewModel.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$viewname$.xaml">MvxContentPageForViewModel.xaml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$viewname$.xaml.cs">MvxContentPageForViewModel.xaml.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name = "$language$" Value="CSharp" />
+      <CustomParameter Name = "$uistyle$" Value="none"/>
+      <CustomParameter Name = "$groupid$" Value="MvxToolkit" />
+      <CustomParameter Name="SideWaffleNewProjNode" Value="CSharp\Mvx Toolkit\Cross Platform"/>
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MvxToolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57d2b3ebcf3b0e8a</Assembly>
+    <FullClassName>MvxToolkit.MvxFormsPage.MvxFormsPageWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

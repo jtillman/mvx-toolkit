@@ -1,0 +1,31 @@
+{
+  "author": "Jeremy Tillman",
+  "classifications": [],
+  "description": "template description",
+  "name": "MvvmCross Cross Platform Mobile Project",
+  "defaultName": "MvxMobileFormsProject",
+  "identity": "MvxToolkit.Mobile.Forms",
+  "groupIdentity": "MvxToolkit",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "mvxmobileforms",
+  "sourceName": "MvxTemplate.Forms",
+    "guids": [
+        "E513AEE2-2A2D-4EAE-B4C5-19D76FAA4736",
+        "C66EF19D-81F5-4920-85EE-83AE18FD11D1",
+        "8AA6BE06-B83B-403B-8D9B-267D71BFE540"
+    ],
+  "primaryOutputs": [
+    {
+        "path": "MvxTemplate.Forms\\MvxTemplate.Forms.csproj"
+    },
+    {
+        "path": "MvxTemplate.Forms.Android\\MvxTemplate.Forms.Android.csproj"
+    },
+    {
+        "path": "MvxTemplate.Forms.iOS\\MvxTemplate.Forms.iOS.csproj"
+    }
+  ]
+}

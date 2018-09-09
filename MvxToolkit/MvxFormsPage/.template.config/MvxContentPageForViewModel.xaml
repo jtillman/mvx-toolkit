@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mvxViews:$mvxpagetype$
+    x:TypeArguments="local:$viewmodelname$"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mvxViews="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:local="clr-namespace:$rootnamespace$"
+    x:Class="$rootnamespace$.$viewname$">
+$if$ ($viewpagetype$ == MvxContentPage)
+  <ContentPage.Content>
+      <StackLayout>
+          <Label Text="$mvxpagetype$ - $viewname$" />
+      </StackLayout>
+  </ContentPage.Content>
+$endif$
+</mvxViews:$mvxpagetype$>

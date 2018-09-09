@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvx:MvxContentPage x:TypeArguments="app:MainPageViewModel" 
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:app="clr-namespace:MvxTemplate.Forms"
+             BackgroundColor="Black"
+             x:Class="MvxTemplate.Forms.MainPageView">
+    <ContentPage.Content>
+        <Grid>
+            <Label Text="Welcome to your MvvmCross Xamarin Forms App!"/>
+        </Grid>
+    </ContentPage.Content>
+</mvx:MvxContentPage>
